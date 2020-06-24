@@ -40,11 +40,6 @@ public class PostRestController {
         return post;
     }
 
-//    @PutMapping("/updateSub")
-//    public Post updatePost(@RequestBody Post post){
-//        postService.save(post);
-//        return post;
-//    }
 
     @PostMapping("/add")
     public Post addPost(@RequestBody Post thePost){
